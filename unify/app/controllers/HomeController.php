@@ -20,4 +20,6 @@ class HomeController extends BaseController {
 		return View::make('hello');
 	}
 
+	Route::get('/AddEvent', 'Controller@showWelcome');
+
 }
